@@ -577,12 +577,8 @@
     justify-content: space-between;
     margin-top: 10px;
     gap: 50px;
-    overflow-x: scroll;
   }
 
-  .j2::-webkit-scrollbar{
-    width: 0;
-  }
   
   .j-serious{
     margin-top: 50px;
@@ -606,8 +602,14 @@
       padding-left: 5%;
       padding-right: 0%;
     }
-  }
-  
+
+    .j2{
+        overflow-x: scroll;
+    }
+    .j2::-webkit-scrollbar{
+        width: 0;
+      }
+}    
   .j-tittle{
     font-size: 15px;
     padding: 10px;
